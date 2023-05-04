@@ -1,0 +1,41 @@
+.trending-products {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .trending-products h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .trending-products-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #888888;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+  }
+  
